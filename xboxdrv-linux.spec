@@ -9,7 +9,7 @@ Release:      %mkrel 1
 Summary:      XBox 360 Controller Driver
 Source:       %name-%version.tar.bz2
 Patch0:		%name-Makefile.patch
-BuildRequires: SDL-devel zlib-devel GL-devel gcc-c++ scons
+BuildRequires: SDL-devel zlib-devel GL-devel gcc-c++ scons libusb-devel
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
 
 %description
