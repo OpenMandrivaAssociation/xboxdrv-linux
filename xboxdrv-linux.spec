@@ -4,8 +4,8 @@ License:	GPL
 Group:		System/Configuration/Hardware 
 URL:		http://pingus.seul.org/~grumbel/xboxdrv/
 Autoreqprov:	on
-Version:	0.7.2
-Release:	%mkrel 2
+Version:	0.7.3
+Release:	%mkrel 1
 Summary:	XBox 360 Controller Driver
 Source:		%name-%version.tar.bz2
 Source1:	xboxdrv.init
