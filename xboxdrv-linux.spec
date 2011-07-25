@@ -18,7 +18,7 @@ Userspace Xbox/Xbox360 USB Gamepad Driver for Linux
 
 %prep
 %setup -q
-%patch0 -p0
+# %patch0 -p0
 
 %build
 %make PREFIX=/usr
