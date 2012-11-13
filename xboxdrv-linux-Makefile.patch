@@ -1,0 +1,17 @@
+--- Makefile~	2011-01-22 20:01:32.000000000 -0500
++++ Makefile	2011-01-27 15:15:28.000000000 -0500
+@@ -15,10 +15,10 @@
+ ##  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ 
+ DESTDIR = 
+-PREFIX  = "/usr/local"
+-DATADIR = "${PREFIX}/share/xboxdrv"
+-MANDIR  = "${PREFIX}/share/man"
+-BINDIR  = "${PREFIX}/bin"
++PREFIX  = /usr
++DATADIR = ${PREFIX}/share/xboxdrv
++MANDIR  = ${PREFIX}/share/man
++BINDIR  = ${PREFIX}/bin
+ 
+ xboxdrv:
+ 	scons
