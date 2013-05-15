@@ -1,15 +1,14 @@
-
 Name:		xboxdrv-linux
 License:	GPL
 Group:		System/Configuration/Hardware 
 URL:		http://pingus.seul.org/~grumbel/xboxdrv/
 Autoreqprov:	on
-Version:	0.8.4
-Release:	%mkrel 1
+Version:	0.8.5
+Release:	1
 Summary:	XBox 360 Controller Driver
 Source0:	http://pingus.seul.org/~grumbel/xboxdrv/%name-%version.tar.bz2
 Source1:	xboxdrv.init
-Patch0:		%name-Makefile.patch
+Patch0:		%{name}-Makefile.patch
 BuildRequires: SDL-devel zlib-devel GL-devel gcc-c++ scons libusb-devel boost-devel udev-devel glib2-devel dbus-glib-devel
 
 %description
