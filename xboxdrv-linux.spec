@@ -4,7 +4,7 @@ Group:		System/Configuration/Hardware
 URL:		http://pingus.seul.org/~grumbel/xboxdrv/
 #Autoreqprov:	on
 Version:	0.8.5
-Release:	1
+Release:	2
 Summary:	XBox 360 Controller Driver
 Source0:	http://pingus.seul.org/~grumbel/xboxdrv/%name-%version.tar.bz2
 Source1:	xboxdrv.service
