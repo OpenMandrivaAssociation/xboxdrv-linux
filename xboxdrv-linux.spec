@@ -3,10 +3,10 @@ License:	GPL
 Group:		System/Configuration/Hardware 
 URL:		http://pingus.seul.org/~grumbel/xboxdrv/
 #Autoreqprov:	on
-Version:	0.8.5
-Release:	2
+Version:	0.8.8
+Release:	1
 Summary:	XBox 360 Controller Driver
-Source0:	http://pingus.seul.org/~grumbel/xboxdrv/%name-%version.tar.bz2
+Source0:	http://pingus.seul.org/~grumbel/xboxdrv/%name-%version.tar.gz
 Source1:	xboxdrv.service
 Patch0:		%{name}-Makefile.patch
 BuildRequires:	pkgconfig(sdl)
