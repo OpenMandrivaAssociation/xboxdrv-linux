@@ -26,7 +26,7 @@ Requires(postun): rpm-helper
 Userspace Xbox/Xbox360 USB Gamepad Driver for Linux
 
 %prep
-%setup -q
+%setup -q -n xboxdrv-%{version}
 # %patch0 -p0
 
 %build
