@@ -1,7 +1,7 @@
 Name:		xboxdrv-linux
 License:	GPL
 Group:		System/Configuration/Hardware 
-URL:		http://pingus.seul.org/~grumbel/xboxdrv/
+URL:		https://pingus.seul.org/~grumbel/xboxdrv/
 #Autoreqprov:	on
 Version:	0.8.8
 Release:	1
